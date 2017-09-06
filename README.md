@@ -1,3 +1,11 @@
+## To revert to old network naming
+```
+put
+net.ifnames=0
+in
+/boot/cmdline.txt
+```
+
 ![](http://i.imgur.com/xeKD93p.png)
 # `$ raspap-webgui` [![Release 1.2.0](https://img.shields.io/badge/Release-1.2.0-green.svg)](https://github.com/billz/raspap-webgui/releases)
 A simple, responsive web interface to control wifi, hostapd and related services on the Raspberry Pi.
